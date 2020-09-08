@@ -1,0 +1,65 @@
+body {
+    font-family: 'Roboto' ,sans-serif;
+  }
+  
+  .bolder-colored{
+    color: #da4e17;
+    font-size: 38px;
+    font-family:  'beyond_the_mountainsregular', sans-serif;
+}
+.bold-colored{
+    margin-right: 10px;
+    color: #ebe8e4;
+    font-size: 35px;
+    font-family:  'beyond_the_mountainsregular', sans-serif;
+}
+.fa-hand-holding-usd{
+    color: #f1eee7;
+    margin-right: 10px;
+    font-size: 40px;
+}
+  .navbar .container{
+    margin: 10px;
+    height: 45px; /*set height of navbar*/
+  }
+  @media (min-width: 800px) and (max-width: 850px) { /* set features of nav bar when it collapses */
+    .navbar:not(.top-nav-collapse) {
+      background: #1C2331 !important;
+      height: 45px;
+    }
+  }
+  .carousel-item .view { /* style all carousel images */
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  .carousel-item .landing1 {
+    background-image: url("https://foreignpolicy.com/wp-content/uploads/2015/09/gettyimages-53176103africa.jpg?w=800&h=537&quality=90");
+    
+  }
+  .carousel-item .landing2 {
+    background-image: url("https://hanseconomics.com/wp-content/uploads/2012/07/african.jpg");
+    
+      
+  }
+  .carousel-item .landing3 {
+    background-image: url("https://www.aljazeera.com/mritems/Images/2020/3/19/ee6d0ab0c2e740edba246a82a58ad88c_18.jpg");
+     
+  }
+  .carousel-item .landing4 {
+    background-image: url("https://www.economist.com/sites/default/files/20200411_MAP501.jpg");
+  }
+  .carousel-item .landing5 {
+    background-image: url("https://www.concernusa.org/wp-content/uploads/2020/06/concern-car-covid-19-prevention-handwashing-demonstration-1180x885.jpg");
+}
+.carousel-item .landing6 {
+    background-image: url("https://i2.wp.com/www.momoafrica.com/wp-content/uploads/2019/09/africa.jpg?fit=990%2C557&ssl=1");
+      
+  }
+  .carousel-inner h1 {
+      /* styling the catch phrase */
+      font-family: 'Concert One', cursive;
+      /* padding-top: 60%; */
+      line-height: 65px;
+      font-size: 3vw;
+      text-align: center;
+  }
