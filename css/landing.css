@@ -57,7 +57,7 @@ body {
   }
   .carousel-inner h1 {
       /* styling the catch phrase */
-      font-family: 'Concert One', cursive;
+      font-family: 'Noto Serif', serif;
       /* padding-top: 60%; */
       line-height: 65px;
       font-size: 3vw;
