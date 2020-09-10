@@ -71,10 +71,20 @@ li:last-child {
   .buttons{
     align-content: center;
     border-radius: 35%;
+    display: flex;
+    justify-content: space-around;
 
   }
   #donate, #contact{
     color: rgb(0, 0, 0);
-    align-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 2px;
     background-color: yellow;
+    outline: none;
+    padding: 12.5px 13px;
+    border: none;
+    border-radius: 33px;
+    font-size: 14px;
   }
