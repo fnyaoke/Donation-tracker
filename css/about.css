@@ -14,9 +14,11 @@ li {
 }
 .don{
   color: yellow;
+  font-family: 'beyond_the_mountainsregular', sans-serif;
 }
 .track{
   color: white;
+  font-family: 'beyond_the_mountainsregular', sans-serif;
 }
 .start{
   float: left;

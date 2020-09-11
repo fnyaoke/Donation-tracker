@@ -1,36 +1,4 @@
-/* 
-*{
-  margin: 0px;
-  padding: 0px;
-}
-nav{ 
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 8vh;
-  background-color:yellow;
-  font-family: 'Poppins', sans-serif;
-  text-align: center;
-} 
-.nav-links{ 
-  display: flex;
-  justify-content: space-around;
-  width: 30%;
-} 
-.nav-links li{ 
-  list-style: none;
-} 
-ul li:hover{
-  background: #37f;
-  font-weight: bold;
-} 
-.nav-links a{ 
-  /* color: whitesmoke; */
-  /* text-decoration: none;
-  letter-spacing: 3px;
-  font-weight: bold;
-  font-size: 14px;
-}  */ */
+
 .column {
     float: left;
     width: 33.33%;
@@ -42,7 +10,7 @@ ul li:hover{
   h1{
       text-align: center;
       text-transform: uppercase;
-      /* background-color: yellow; */
+      /* color: yellow; */
       padding-top: 0px;
       align-items: center;
       margin-right: 400px;
