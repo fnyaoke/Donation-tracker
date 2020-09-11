@@ -42,10 +42,6 @@ li a:hover {
 li:last-child {
   border-right: none;
 }
-.container {
-  padding: 16px;
-}
-
 /* Full-width input fields */
 input[type=text], input[type=password] {
   width: 100%;
@@ -94,7 +90,16 @@ a {
   text-align: center;
 }
 body{
-  background-color: yellow;
+  background-color: rgb(255, 255, 255);
+}
+.jumbotron{
+  background-color: whitesmoke;
+  box-shadow: 3px 3px 5px yellow;
+  align-items: center;
+}
+.header-images{
+  display: flex;
+  justify-content: space-around;
 }
 img {
   border-radius: 50%;
@@ -108,4 +113,14 @@ input[type=submit]:hover {
 .container {
   border-radius: 5px;
   padding: 20px;
+}
+h3{
+  text-align: center;
+  text-shadow:2px 3px 5px yellow;
+}
+.row{
+  justify-content: space-evenly;
+}
+#mpesa{
+  border-radius: 0;
 }
