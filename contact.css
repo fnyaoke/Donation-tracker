@@ -3,7 +3,7 @@ body{
     margin:o;
     padding:o;
     text-align:center;
-    background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url(background.jpeg);
+    background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url(imgbg.jpg);
     background-size: cover;
     background-position: center;
     font-family:sans-serif;
