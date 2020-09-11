@@ -1,4 +1,44 @@
-
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  transition: all 4s ease-in-out;
+}
+li {
+  float: right;
+}
+.don{
+  color:yellow;
+  font-family: 'beyond_the_mountainsregular', sans-serif;
+}
+.track{
+  color: white;
+  font-family: 'beyond_the_mountainsregular', sans-serif;
+}
+.start{
+  float: left;
+}
+.start, .don{
+  font-family: 'beyond_the_mountainsregular', sans-serif;
+}
+li a {
+  display: block;
+  color: yellow;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color:yellow;
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+li:last-child {
+  border-right: none;
+}
 .column {
     float: left;
     width: 33.33%;
